@@ -1,1 +1,18 @@
 
+CURL COMMAND:
+
+curl.exe -L -X GET `
+  -H "Accept: application/vnd.github+json" `
+  -H "X-GitHub-Api-Version: 2026-03-10" `
+  https://api.github.com/repos/avinitpng/mcino-Introduction-to-Git-and-GitHub
+
+
+TERMINAL OUTPUT:
+
+{
+  "full_name": "avinitpng/mcino-Introduction-to-Git-and-GitHub",
+  "fork": true,
+  "parent": {
+    "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+  }
+}
